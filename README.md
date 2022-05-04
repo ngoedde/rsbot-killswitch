@@ -5,7 +5,7 @@ https://github.com/SDClowen/RSBot
 Are you tired of opening the task manager and search for the processes and kill them manually?
 With this plugin this process will be automated with a few clicks. 
 
-![Main](https://raw.githubusercontent.com/ngoedde/rsbot-killswitch/main/Screenshots/Main.PNG)
+![Main](https://github.com/ngoedde/rsbot-killswitch/blob/main/Screenshots/Main.PNG?raw=true)
 
 # Features
 * Auto. kill processes when the bot application starts (A message box will appear asking you if you want to kill all processes)
