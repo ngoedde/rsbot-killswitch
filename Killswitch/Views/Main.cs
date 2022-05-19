@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Drawing;
 using RSBot.Core;
 using System.Windows.Forms;
 
@@ -12,6 +13,8 @@ namespace Killswitch.Views
 
             txtProcessName.Text = GlobalConfig.Get("Killswitch.ProcessName", "sro_client.exe");
             checkKillswitchEnabled.Checked = GlobalConfig.Get<bool>("Killswitch.Enabled");
+
+            ForeColor = Color.Black;
         }
 
         #region Events
